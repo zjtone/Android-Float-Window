@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white_400">#F8F8FF</color>
+    <color name="half_white_400">#6FF8F8FF</color>
+    <color name="blue_color">#1B9AF7</color>
+    <color name="blue_color_light">#58b2f2</color>
+
+    <color name="colorPrimary_light_trsp">#7b393a3f</color>
+    <color name="colorPrimary_light">#00393a3f</color>
+
+    <color name="grey">#6a6a6a</color>
+    <color name="grey_800">#565656</color>
+    <color name="blue_grey_400">#90A4AE</color>
+    <color name="blue_grey_700">#455a64</color>
+    <color name="blue_grey_900">#37474F</color>
+
+    <color name="colorDivider">#164a4a4a</color>
+
+    <color name="product_yellow">#FFBB43</color>
+    <color name="product_blue">#11A0F8</color>
+    <color name="product_green">#7ACE4C</color>
+    <color name="product_purple">#7460EE</color>
+    <color name="product_red">#B54B36</color>
+
+</resources>

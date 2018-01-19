@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="controlViewModel"
+            type="com.example.zjt.floatrecorder.FloatControlViewModel" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_800"
+        android:orientation="horizontal">
+        <!-- 图标，点击后弹出后面的按钮 -->
+        <ImageView
+            android:id="@+id/float_id"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:onClick="@{controlViewModel::onVisibleChange}"
+            android:background="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/play"
+            android:onClick="@{controlViewModel::onPlay}" />
+
+        <ImageView
+            android:id="@+id/pause"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/pause"
+            android:onClick="@{controlViewModel::onPause}" />
+    </LinearLayout>
+</layout>
